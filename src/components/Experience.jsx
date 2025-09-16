@@ -5,22 +5,38 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: 'Bliss (Family Business)',
-      position: 'Growth Hacker',
-      period: 'Jun 2025 - Present',
+      company: 'Northeastern University',
+      position: 'Finance Associate (FP&A)',
+      period: 'Dec 2024 - Present',
       highlights: [
-        "Identified that word-of-mouth drove 80% of new tenant acquisition through customer behavior analysis – discovered untapped referral opportunity in organic peer recommendations",
-        "Designed and launched referral program with 10:1 ROI – increased revenue 31% in 21 days"
+        "Built Power BI dashboards for budgets, fixed assets, and AR.",
+        "Developed SAP expense analytics dashboard, cutting reconciliation time.",
+        "Produced weekly cost reports and rolling forecasts (variance vs. budget).",
+        "Created a Workday revenue dashboard for billing, collections, and GL.",
+        "Published weekly budget reports in Workday Finance with (BVA) commentary.",
+        "Managed fixed asset tracking and depreciation schedules.",
+        "Maintained AR aging in FBS software, adding cues to reduce overdue amounts; tracked DSO and collection trends for cash forecasting."
       ],
     },
     {
-      company: 'Norstella',
-      position: 'Data Science Intern',
-      period: 'July 2024 - Dec 2024',
+      company: 'VMware',
+      position: 'Financial Analyst 2',
+      period: 'Dec 2022 - May 2024',
       highlights: [
-        'Prototyped LLM system (Llama 3.1 8B) to fill in 97% of missing data.',
-        'Built an ML model to identify bottlenecks - projects ran 110% faster for customers',
-        'NLP to cluster clients - helped teams personalize renewal conversations'
+        'Reconciled revenue reports, ensuring accurate financial data and generating comprehensive sales reports to provide performance insights. Streamlined pipeline tracking process to improve forecasting accuracy.',
+        'Managed and reassigned opportunities on SFDC, reconciling over 12 million in revenue for the territory. Closed over 3000 opportunities in Q1 and Q2 of 2024. ',
+        'Led quoting processes, ensuring pricing accuracy and consistency across all deals, actively collaborating with stakeholders.',
+        'Developed Power BI dashboards for QBR, empowering stakeholders to make informed decisions. Handeled over six projects, collaborating with cross functional teams. '
+      ],
+    },
+    {
+      company: 'Urban Company',
+      position: 'Business Development Associate',
+      period: 'Apr 2022 - Nov 2022',
+      highlights: [
+        'Oversaw daily operational & administrative activites; utilized Excel to customize the analysis, enabled informed decision making & facilitated effective monitoring of the company performance; increased productivity by 40%.',
+        'Monitored 4 analytical reports for supply and demand, mitigated risk in supply- demand balancing, and designed a reward and recognition program using SQL, Excel; witnessed a 7% revenue growth and improved partner retention.',
+        'Tracked sales analytics, performed root cause analysis, and maintained relationships with stakeholders to mitigate future risks.'
       ],
     }
   ]

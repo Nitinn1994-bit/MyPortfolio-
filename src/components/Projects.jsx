@@ -1,45 +1,62 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaGithub } from 'react-icons/fa'
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const Projects = () => {
+  // Helper: add clean-view params to the Power BI URL
+  const clean = (url) =>
+    `${url}&navContentPaneEnabled=false&filterPaneEnabled=false&chromeless=true`
 
   const projects = [
     {
-      title: 'Retrieval Augmented Generation - PubMed',
-      description: 'Real-time medical research assistant using GPT-4 and PubMed integration. Achieves sub-100ms retrieval on 10000+ abstracts with ChromaDB vector search.',
-      impact: '2-second response time • BioBERT embeddings • Production-ready',
-      technologies: ['LLM', 'RAG', 'ChromaDB', 'BioBERT', 'FastAPI', 'GPT-4'],
-      github: 'https://github.com/Rithvik-katakamm/PubMedRAG',
+      title: 'Lululemon Valuation Model',
+      description:
+        'Excel-based valuation model for Lululemon Athletica (LULU). Includes historical financials, DCF analysis, and scenario forecasting to estimate intrinsic value.',
+      impact: 'DCF Valuation • Scenario & Sensitivity Analysis • Equity Research',
+      technologies: ['Excel', 'DCF', 'Financial Modeling', 'Valuation'],
+      github: 'https://github.com/Nitinn1994-bit/lululemon-valuation',
+      color: 'from-pink-500 to-red-500',
+    },
+    {
+      title: 'Finance Overview – FP&A Dashboard',
+      description:
+        'Comprehensive view of financial performance with KPIs for Revenue, COGS, Gross Profit, Expenses, and Net Profit. Includes revenue trends, top accounts, and working capital for daily decision-making.',
+      impact: 'Daily KPI tracking • Revenue & Expense insights • Working Capital',
+      technologies: ['Budget vs Actuals', 'Forecasting', 'Net Profit'],
+      embed: clean(
+        'https://app.powerbi.com/reportEmbed?reportId=e73a6eea-ffe0-4f78-b651-5a92e48541fd&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7'
+      ),
+      open:
+        'https://app.powerbi.com/reportEmbed?reportId=e73a6eea-ffe0-4f78-b651-5a92e48541fd&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7',
       color: 'from-purple-500 to-blue-500',
     },
     {
-      title: 'AI for Emails',
-      description: 'Privacy-first email automation with local Llama 3.2 and structured outputs.',
-      impact: '100% local processing • Pydantic models • Structured Output ',
-      technologies: ['Llama', 'Ollama', 'Structured Outputs'],
-      github: 'https://github.com/Rithvik-katakamm/Email-Summerizer-using-Llama',
+      title: 'Receivables Overview – AR Dashboard',
+      description:
+        'Real-time tracking of invoices, open balances, DSO trends, and aging. Includes overview, status, aging, customer statement, and payments views for stronger cash-flow visibility and collections.',
+      impact: 'AR tracking • DSO & Aging insights • Payment trends',
+      technologies: ['Accounts Receivable', 'DSO', 'Aging', 'Payments'],
+      embed: clean(
+        'https://app.powerbi.com/reportEmbed?reportId=e33a0d65-ad1c-4a52-af28-1fe69485e89d&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7'
+      ),
+      open:
+        'https://app.powerbi.com/reportEmbed?reportId=e33a0d65-ad1c-4a52-af28-1fe69485e89d&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7',
       color: 'from-teal-500 to-green-500',
     },
     {
-      title: 'Topic Modeling - MIMIC-III',
-      description: 'Discovered 8 distinct clinical themes from 2M+ clinical notes using LDA. Achieved 0.5625 coherence score, exceeding clinical text benchmarks.',
-      impact: 'Healthcare NLP • MLflow tracking • pyLDAvis visualization',
-      technologies: ['Topic Modeling', 'MIMIC-III', 'LDA', 'spaCy', 'MLflow'],
-      github: 'https://github.com/Rithvik-katakamm/Topic-Modeling-LDA-MIMIC-III-',
+      title: 'Fixed Assets Dashboard',
+      description:
+        'Tracks asset lifecycle KPIs: beginning balance, acquisitions, depreciation, disposals, and net book value. Drilldowns by month, asset group, and location for effective asset management.',
+      impact: 'Lifecycle tracking • Depreciation analysis • CapEx monitoring',
+      technologies: ['Fixed Assets', 'Depreciation', 'CapEx', 'Disposals'],
+      embed: clean(
+        'https://app.powerbi.com/reportEmbed?reportId=5f006a9e-ad9e-4958-a2ca-bc1014871dad&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7'
+      ),
+      open:
+        'https://app.powerbi.com/reportEmbed?reportId=5f006a9e-ad9e-4958-a2ca-bc1014871dad&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7',
       color: 'from-blue-500 to-cyan-500',
     },
-    {
-      title: 'Named Entity Recognition',
-      description: 'Automated medical entity extraction from clinical notes. Reduced manual review by 70% using fine-tuned ClinicalBERT.',
-      impact: '2M+ notes processed • Optuna optimization • MLflow tracking',
-      technologies: ['ClinicalBERT', 'NER', 'MIMIC-III', 'Optuna', 'spaCy'],
-      github: 'https://github.com/Rithvik-katakamm/Fine-Tuned-Named-Entity-Recognition',
-      color: 'from-cyan-500 to-teal-500',
-    },
   ]
-
-
 
   return (
     <section id="projects" className="py-16 sm:py-20 px-4 sm:px-6">
@@ -56,32 +73,24 @@ const Projects = () => {
               whileHover={{ y: -5 }}
             >
               {/* Gradient overlay */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-5 group-hover:opacity-10 transition-opacity duration-500`} />
-              
+              <div
+                className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-5 group-hover:opacity-10 transition-opacity duration-500`}
+              />
+
               <div className="relative z-10">
-                <div className="flex justify-between items-start mb-4 gap-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-dark-text group-hover:text-accent-purple transition-colors duration-300">
-                    {project.title}
-                  </h3>
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 rounded-lg hover:bg-accent-purple/20 transition-colors duration-300 flex-shrink-0"
-                  >
-                    <FaGithub className="w-5 h-5" />
-                  </a>
-                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-dark-text group-hover:text-accent-purple transition-colors duration-300 mb-4">
+                  {project.title}
+                </h3>
 
                 <p className="text-sm sm:text-base text-dark-muted mb-4 leading-relaxed">
                   {project.description}
                 </p>
 
-                <p className="text-sm sm:text-base text-accent-purple font-medium mb-6">
+                <p className="text-sm sm:text-base text-accent-purple font-medium mb-4">
                   {project.impact}
                 </p>
 
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
@@ -91,6 +100,56 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
+
+                {/* If GitHub link project */}
+                {project.github && (
+                  <div className="mt-4">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent-purple/20 hover:bg-accent-purple/30 smooth-transition"
+                    >
+                      <FaGithub className="w-4 h-4" />
+                      View on GitHub
+                    </a>
+                  </div>
+                )}
+
+                {/* If embed project */}
+                {project.embed && (
+                  <div className="w-full overflow-hidden rounded-lg shadow-lg relative mt-4">
+                    <div
+                      style={{
+                        transform: 'scale(0.8)',
+                        transformOrigin: 'top left',
+                        width: '125%',
+                        height: '1000px',
+                      }}
+                    >
+                      <iframe
+                        title={project.title}
+                        src={project.embed}
+                        width="100%"
+                        height="1000"
+                        frameBorder="0"
+                        allowFullScreen={true}
+                        style={{ background: 'transparent' }}
+                      />
+                    </div>
+                    <div className="mt-4">
+                      <a
+                        href={project.open}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent-purple/20 hover:bg-accent-purple/30 smooth-transition"
+                      >
+                        <FaExternalLinkAlt className="w-4 h-4" />
+                        View full report
+                      </a>
+                    </div>
+                  </div>
+                )}
               </div>
             </motion.div>
           ))}

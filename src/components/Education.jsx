@@ -6,16 +6,16 @@ const Education = () => {
 
   const education = [
     {
-      degree: 'Master of Science - Data Analytics Engineering',
+      degree: 'Master of Science - Quantitative Finance',
       school: 'Northeastern University, Boston',
-      period: 'May 2025',
-      highlights: ['Machine Learning', 'Natural Language Processing', 'Healthcare Analytics'],
+      period: 'Dec 2025',
+      highlights: ['Investment Analysis', 'Corporate Finance', 'Financial Modeling'],
     },
     {
-      degree: 'Bachelor of Technology - Computer Science',
-      school: 'Sreenidhi Institute of Science and Technology',
-      period: 'July 2023',
-      highlights: ['Data Structures', 'Algorithms', 'Software Engineering'],
+      degree: 'Bachelor of Business Administration',
+      school: 'RV Institute of Technology',
+      period: 'Oct 2022',
+      highlights: ['Quantitative Management', 'Accounting Decisions', 'Cost & Management'],
     },
   ]
 

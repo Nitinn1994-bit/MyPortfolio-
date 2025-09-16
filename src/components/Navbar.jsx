@@ -41,7 +41,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <h1 className="text-xl sm:text-2xl font-bold gradient-text">RITHVIK KATAKAM</h1>
+            <h1 className="text-xl sm:text-2xl font-bold gradient-text">NITIN NARAYANASWAMY</h1>
           </motion.div>
           
           {/* Desktop Navigation */}

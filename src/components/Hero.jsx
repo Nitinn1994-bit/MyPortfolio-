@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 const Hero = () => {
   const socialLinks = [
-    { icon: FaGithub, href: 'https://github.com/Rithvik-katakamm', label: 'GitHub' },
-    { icon: FaLinkedin, href: 'https://linkedin.com/in/rithvikkatakam/', label: 'LinkedIn' },
-    { icon: FaEnvelope, href: 'mailto:rithvik.katakamm@gmail.com', label: 'Email' },
+    { icon: FaGithub, href: 'https://github.com/Nitinn1994-bit', label: 'GitHub' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/nitin-n-3322b029b/', label: 'LinkedIn' },
+    { icon: FaEnvelope, href: 'n.n@northeastern.edu', label: 'Email' },
   ]
 
   return (
@@ -21,10 +21,10 @@ const Hero = () => {
         {/* Text Content - Order 2 on mobile, Order 1 on desktop */}
         <div className="order-2 md:order-1 text-center md:text-left">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8">
-            Hi, I'm <span className="gradient-text whitespace-nowrap">Rithvik</span><span className="blinking-cursor"></span>
+            Hi, I'm <span className="gradient-text whitespace-nowrap">Nitin</span><span className="blinking-cursor"></span>
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-dark-muted mb-6 sm:mb-8 leading-relaxed max-w-xl mx-auto md:mx-0">
-                         I like AI and engineering. 
+                         Finance professional specializing in FP&A, financial reporting, and data-driven modeling. 
           </p>
           
           <div className="flex gap-4 justify-center md:justify-start">
@@ -52,7 +52,7 @@ const Hero = () => {
             <div className="relative aspect-[3/4] overflow-hidden rounded-2xl shadow-2xl">
               <img
                 src="IMG_0495.png"
-                alt="Rithvik Katakam"
+                alt="Nitin Narayanaswamy"
                 className="w-full h-full object-cover object-center"
                 loading="eager"
                 decoding="async"

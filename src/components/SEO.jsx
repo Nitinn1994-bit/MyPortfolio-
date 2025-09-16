@@ -10,42 +10,35 @@ function normalizeImagePath(imagePath) {
 }
 
 const SEO = ({
-  title = "Rithvik Katakam's Portfolio",
-  description = 'Personal portfolio site.',
-  image = '/Portfolio-picture.jpeg',
-  url,
+  title = "Nitin Narayanaswamy | FP&A, Financial Modeling & Analytics",
+  description = "Finance professional specializing in FP&A, financial reporting, valuation, and data-driven modeling. Experienced in building dashboards, portfolio management, and equity research.",
+  image = '/Portfolio-picture.jpeg', // make sure the image is in public/
+  url = 'https://nitinn1994-bit.github.io/portfolio', // replace with your deployed portfolio URL
   type = 'website',
-  twitterHandle,
+  twitterHandle = '@yourhandle', // optional: add your Twitter handle
 }) => {
-  const siteName = 'Rithvik Katakam'
+  const siteName = 'Nitin Narayanaswamy'
   const imageUrl = normalizeImagePath(image)
 
   return (
     <Helmet prioritizeSeoTags>
+      {/* Title & Description */}
       {title && <title>{title}</title>}
-      {description && (
-        <meta name="description" content={description} />
-      )}
+      {description && <meta name="description" content={description} />}
 
-      {/* Open Graph */}
+      {/* Open Graph (for LinkedIn, WhatsApp, etc.) */}
       {type && <meta property="og:type" content={type} />}
-      {title && <meta property="og:title" content={title} />} 
-      {description && (
-        <meta property="og:description" content={description} />
-      )}
+      {title && <meta property="og:title" content={title} />}
+      {description && <meta property="og:description" content={description} />}
       {imageUrl && <meta property="og:image" content={imageUrl} />}
       {url && <meta property="og:url" content={url} />}
       <meta property="og:site_name" content={siteName} />
 
-      {/* Twitter */}
+      {/* Twitter (for X/Twitter previews) */}
       <meta name="twitter:card" content="summary_large_image" />
-      {twitterHandle && (
-        <meta name="twitter:site" content={twitterHandle} />
-      )}
+      {twitterHandle && <meta name="twitter:site" content={twitterHandle} />}
       {title && <meta name="twitter:title" content={title} />}
-      {description && (
-        <meta name="twitter:description" content={description} />
-      )}
+      {description && <meta name="twitter:description" content={description} />}
       {imageUrl && <meta name="twitter:image" content={imageUrl} />}
     </Helmet>
   )

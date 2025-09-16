@@ -15,8 +15,8 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       label: 'Email',
-      value: 'rithvik.katakamm@gmail.com',
-      href: 'mailto:rithvik.katakamm@gmail.com',
+      value: 'n.n@northeastern.edu',
+      href: 'mailto:n.n@northeastern.edu',
     },
     {
       icon: FaMapMarkerAlt,
@@ -26,20 +26,20 @@ const Contact = () => {
     {
       icon: FaLinkedin,
       label: 'LinkedIn',
-      value: 'rithvikkatakam',
-      href: 'https://linkedin.com/in/rithvikkatakam/',
+      value: 'Nitin N',
+      href: 'https://www.linkedin.com/in/nitin-n-3322b029b/',
     },
     {
       icon: FaGithub,
       label: 'GitHub',
-      value: 'Rithvik-katakamm',
-      href: 'https://github.com/Rithvik-katakamm',
+      value: 'Nitinn1994-bit',
+      href: 'https://github.com/Nitinn1994-bit',
     },
   ]
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const mailtoLink = `mailto:rithvik.katakamm@gmail.com?subject=${formData.subject}&body=From: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0A${formData.message}`
+    const mailtoLink = `mailto:n.n@northeastern.edu?subject=${formData.subject}&body=From: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0A${formData.message}`
     window.location.href = mailtoLink
   }
 

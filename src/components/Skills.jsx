@@ -6,19 +6,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Core',
-      skills: ['Machine Learning', 'Deep Learning', 'NLP', 'C++', 'Git', 'Python', 'Pytorch'],
+      skills: ['Financial Modeling', 'Financial Reporting', 'FP&A', 'Budgeting & Forecasting', 'Business Strategy', 'Valuation (DCF, LBO)', 'Cost & Management Accounting'],
     },
     {
-      title: 'LLM Engineering',
-      skills: ['RAG', 'Prompt Engineering', 'Fine-tuning', 'Vector Databases', 'ChromaDB', 'Structured Outputs', 'GPT-4', 'Llama', 'Faiss','MCP','Ollama'],
+      title: 'Analytics & Visualization',
+      skills: ['Power BI', 'Tableau', 'Workday Finance', 'SAP', 'EBS', 'FBS', 'Power apps', 'Salesforce'],
     },
     {
-      title: 'Frameworks',
-      skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'XGBoost', 'Transformers (Hugging Face)', 'Keras', 'LangChain','NumPy', 'Pandas', 'Matplotlib'],
-    },
-    {
-      title: 'MLOps & Cloud',
-      skills: ['Docker', 'Kubernetes', 'CI/CD', 'Model Deployment', 'REST API', 'SageMaker', 'Data Pipeline', 'ETL', 'MongoDB'],
+      title: 'Data & Programming',
+      skills: ['SQL', 'Python', 'ETL', 'Oracle', 'SharePoint', 'NumPy', 'Pandas', 'Matplotlib'],
     }
   ]
 

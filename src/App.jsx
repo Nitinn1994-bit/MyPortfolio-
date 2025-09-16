@@ -10,18 +10,19 @@ import Contact from './components/Contact'
 
 function App() {
   useEffect(() => {
-    // Simple smooth scrolling without conflicts
+    // Enable smooth scrolling site-wide
     document.documentElement.style.scrollBehavior = 'smooth'
   }, [])
 
   return (
     <div className="min-h-screen bg-dark-bg">
       <SEO
-        title="Rithvik Katakam"
-        description="I like AI and engineering"
-        image="/Portfolio-picture.jpeg"
+        title="Nitin Narayanaswamy | FP&A, Financial Modeling & Analytics"
+        description="Finance professional specializing in FP&A, financial reporting, and data-driven modeling."
+        image="/Portfolio-picture.jpeg"                           // must be in /public
+        url="https://Nitinn1994-bit.github.io/portfolio/"        // update if your live URL changes
         type="website"
-        twitterHandle="@"
+        twitterHandle=""                                         // add your @handle if you have one
       />
       <Navbar />
       <main>
