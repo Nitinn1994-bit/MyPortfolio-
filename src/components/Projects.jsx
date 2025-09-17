@@ -23,12 +23,8 @@ const Projects = () => {
         'Comprehensive view of financial performance with KPIs for Revenue, COGS, Gross Profit, Expenses, and Net Profit. Includes revenue trends, top accounts, and working capital for daily decision-making.',
       impact: 'Daily KPI tracking • Revenue & Expense insights • Working Capital',
       technologies: ['Budget vs Actuals', 'Forecasting', 'Net Profit'],
-      embed: clean(
-        'https://app.powerbi.com/reportEmbed?reportId=e73a6eea-ffe0-4f78-b651-5a92e48541fd&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7'
-      ),
-      open:
-        'https://app.powerbi.com/reportEmbed?reportId=e73a6eea-ffe0-4f78-b651-5a92e48541fd&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7',
-      color: 'from-purple-500 to-blue-500',
+      github: 'https://github.com/Nitinn1994-bit/Finance_Overview_Dashboard.git', 
+      color: 'from-pink-500 to-red-500',
     },
     {
       title: 'Receivables Overview – AR Dashboard',
@@ -36,25 +32,17 @@ const Projects = () => {
         'Real-time tracking of invoices, open balances, DSO trends, and aging. Includes overview, status, aging, customer statement, and payments views for stronger cash-flow visibility and collections.',
       impact: 'AR tracking • DSO & Aging insights • Payment trends',
       technologies: ['Accounts Receivable', 'DSO', 'Aging', 'Payments'],
-      embed: clean(
-        'https://app.powerbi.com/reportEmbed?reportId=e33a0d65-ad1c-4a52-af28-1fe69485e89d&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7'
-      ),
-      open:
-        'https://app.powerbi.com/reportEmbed?reportId=e33a0d65-ad1c-4a52-af28-1fe69485e89d&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7',
-      color: 'from-teal-500 to-green-500',
+      github: 'https://github.com/Nitinn1994-bit/AR_Dashboard.git',
+      color: 'from-pink-500 to-red-500',
     },
     {
       title: 'Fixed Assets Dashboard',
       description:
         'Tracks asset lifecycle KPIs: beginning balance, acquisitions, depreciation, disposals, and net book value. Drilldowns by month, asset group, and location for effective asset management.',
-      impact: 'Lifecycle tracking • Depreciation analysis • CapEx monitoring',
-      technologies: ['Fixed Assets', 'Depreciation', 'CapEx', 'Disposals'],
-      embed: clean(
-        'https://app.powerbi.com/reportEmbed?reportId=5f006a9e-ad9e-4958-a2ca-bc1014871dad&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7'
-      ),
-      open:
-        'https://app.powerbi.com/reportEmbed?reportId=5f006a9e-ad9e-4958-a2ca-bc1014871dad&autoAuth=true&ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7',
-      color: 'from-blue-500 to-cyan-500',
+      impact: 'Lifecycle tracking • Depreciation analysis • Acquisition monitoring',
+      technologies: ['Fixed Assets', 'Depreciation', 'Acquisition', 'Disposals'],
+      github: 'https://github.com/Nitinn1994-bit/Fixed_Assets_Dashboard.git',
+      color: 'from-pink-500 to-red-500',
     },
   ]
 
