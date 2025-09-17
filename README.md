@@ -1,4 +1,4 @@
-# Rithvik Katakam - Portfolio
+# Nitin- Portfolio
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS featuring smooth animations and a dark theme with purple accents.
 
@@ -58,4 +58,4 @@ MIT License
 
 ## 👤 Contact
 
-Rithvik Katakam - [rithvik.katakamm@gmail.com](mailto:rithvik.katakamm@gmail.com)
+Nitin N - [nitinn9620@gmail.com](mailto:itinn9620@gmail.com)
