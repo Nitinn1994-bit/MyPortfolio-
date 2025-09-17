@@ -21,7 +21,7 @@ const Contact = () => {
     {
       icon: FaMapMarkerAlt,
       label: 'Location',
-      value: 'Chennai, MA',
+      value: 'Boston', MA',
     },
     {
       icon: FaLinkedin,
