@@ -23,10 +23,12 @@ const Experience = () => {
       position: 'Financial Analyst 2',
       period: 'Dec 2022 - May 2024',
       highlights: [
-        'Reconciled revenue reports, ensuring accurate financial data and generating comprehensive sales reports to provide performance insights. Streamlined pipeline tracking process to improve forecasting accuracy.',
-        'Managed and reassigned opportunities on SFDC, reconciling over 12 million in revenue for the territory. Closed over 3000 opportunities in Q1 and Q2 of 2024. ',
-        'Led quoting processes, ensuring pricing accuracy and consistency across all deals, actively collaborating with stakeholders.',
-        'Developed Power BI dashboards for QBR, empowering stakeholders to make informed decisions. Handeled over six projects, collaborating with cross functional teams. '
+        'Supported weekly bookings reporting, reconciling $12M+ revenue and delivering actuals vs. forecast and plan updates to EUC and Sales leadership.',
+        'Partnered with Product Management to analyze, forecast, and plan scenarios on product roadmaps and market opportunities, quantifying financial impact for strategy decisions. ',
+        'Engaged in monthly and quarterly forecasting of ARR, revenue, and SaaS metrics, improving reporting accuracy by 15% and strengthening monitoring of business health.',
+        'Assisted in annual and long-range financial planning, preparing expense forecasts and scenario models to support company-wide strategic planning. ',
+        'Designed automated Power BI dashboards integrating pipeline, revenue, and SaaS data, reducing reporting cycle time by 25% and enabling better decision-making. ',
+        'Collaborated with FP&A, Sales Finance, Sales Ops, and BU Ops teams, leveraging Oracle Cloud, Salesforce, Tableau, and Power BI to enhance reporting processes and forecasting insights. '
       ],
     },
     {
