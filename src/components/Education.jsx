@@ -13,7 +13,7 @@ const Education = () => {
     },
     {
       degree: 'Bachelor of Business Administration',
-      school: 'RV Institute of Technology',
+      school: 'SSMRV College',
       period: 'Oct 2022',
       highlights: ['Quantitative Management', 'Accounting Decisions', 'Cost & Management'],
     },
