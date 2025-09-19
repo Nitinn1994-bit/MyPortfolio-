@@ -9,13 +9,13 @@ const Experience = () => {
       position: 'Finance Associate (FP&A)',
       period: 'Dec 2024 - Present',
       highlights: [
-        "Built Power BI dashboards for budgets, fixed assets, and AR.",
-        "Developed SAP expense analytics dashboard, cutting reconciliation time.",
-        "Produced weekly cost reports and rolling forecasts (variance vs. budget).",
-        "Created a Workday revenue dashboard for billing, collections, and GL.",
-        "Published weekly budget reports in Workday Finance with (BVA) commentary.",
-        "Managed fixed asset tracking and depreciation schedules.",
-        "Maintained AR aging in FBS software, adding cues to reduce overdue amounts; tracked DSO and collection trends for cash forecasting."
+        "Built automated Power BI dashboards for budgets, AR, and expense monitoring, enabling real-time performance tracking and variance analysis.",
+        "Developed an SAP expense analytics dashboard, reducing reconciliation time by 30% and improving cost accuracy.",
+        "Produced weekly cost reports and rolling forecasts, delivering variance vs. budget insights to support senior management decisions.",
+        "Created a Workday revenue dashboard consolidating billing, collections, and GL data, streamlining financial reporting.",
+        "Published weekly budget variance analysis (BVA) commentary in Workday Finance, highlighting cost drivers and spending trends.",
+        "Managed fixed asset schedules, ensuring accurate depreciation tracking and compliance with accounting standards.",
+        "Maintained AR aging in FBS software, adding automated cues to reduce overdue balances and tracking DSO trends for cash flow forecasting."
       ],
     },
     {
