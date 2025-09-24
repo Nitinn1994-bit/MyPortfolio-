@@ -36,6 +36,15 @@ const Projects = () => {
       color: 'from-pink-500 to-red-500',
     },
     {
+      title: 'Financial Insights Dashboard',
+      description:
+        'A dynamic FP&A solution built in Power BI that consolidates profitability, liquidity, and solvency metrics into a single analytical framework. The dashboard integrates Income Statement and Balance Sheet perspectives, featuring KPIs for Revenue, COGS, OpEx, Net Income, Current Assets, Liabilities, and Debt-to-Equity. Interactive slicers for year, month, legal entity, and cost center enable multi-dimensional drill-downs, while time-intelligence calculations (YoY, TTM) provide context for trend analysis and strategic forecasting.',
+      impact: 'Comprehensive financial storytelling • Cross-functional performance monitoring • Strategic decision enablement',
+      technologies: ['Power BI', 'Power Query (parameters, type hygiene)', 'Dim/Fact modeling', 'Custom Visuals (Advance Card)'],
+      github: 'https://github.com/Nitinn1994-bit/Financial_Insights_Dashboard.git',
+      color: 'from-pink-500 to-red-500',
+    },
+    {
       title: 'Fixed Assets Dashboard',
       description:
         'Tracks asset lifecycle KPIs: beginning balance, acquisitions, depreciation, disposals, and net book value. Drilldowns by month, asset group, and location for effective asset management.',
