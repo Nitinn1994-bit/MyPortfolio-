@@ -23,7 +23,7 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Rithvik-katakamm/portfolio.git
+git clone https: https://github.com/Nitinn1994-bit/MyPortfolio-.git
 cd portfolio
 ```
 
