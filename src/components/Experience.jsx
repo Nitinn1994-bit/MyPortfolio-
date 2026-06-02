@@ -6,7 +6,7 @@ const Experience = () => {
   const experiences = [
     {
       company: 'Northeastern University',
-      position: 'Finance Associate (FP&A)',
+      position: 'Accounts Receivable Specialist',
       period: 'Dec 2024 - Present',
       highlights: [
         "Built automated Power BI dashboards for budgets, AR, and expense monitoring, enabling real-time performance tracking and variance analysis.",
